@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ahnelson34/blog-api#readme",
   "dependencies": {
+    "chai-http": "^4.3.0",
     "express": "^4.16.4",
     "mocha": "^6.1.4",
     "uuid": "^3.3.2"
