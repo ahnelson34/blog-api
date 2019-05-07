@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ahnelson34/blog-api#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "mocha": "^6.1.4",
     "uuid": "^3.3.2"
   }
 }
