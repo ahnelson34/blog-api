@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: i8WFHvBY+YE73Qg+KsSihYz/5R1OoPCX4b7IluR9vrM6cVe0ofTUb88BpnQcKfYTzzvLut0PG7iNQc+N1xcJU7FcCdMdWF5BuzDFi0hwTptby/h53MlYHc3oOJxfyAlldPwfnumgVEpJRBQF1RaHMcdMmjCKR4SnftHBgA4ALVERKDC02YvmSInBfT5rMT6ZLASODi9p4sAGGpikp1uuwC3ccmw6Ata5+vgUFUtnmt4f+Z2EtxOVhe6v0DouQZYiOXT/LKmOsopv1/YWnHBi6yCA+cC7KK3IByhsK4bfpjGhczvB63G7PbZZoCNvWFFAWW1riXFBw/22EOFJzWePF0tdhO/KlGdJceILnz/AhQEUL481hJyF65Wl5pT09dAaEavB8q9qQTabm/GnOhC2ZsZFSxvYJwBLE0G0EXM6anmyQa+FZN/tmzVg2teIf82b91S447RaiwNJ8PR3cxSKfJ6liHyDek2ZABQ/fcIThnVAZPHSDHaSpEinZlUO5oug84SX12AostvTBMgNCR64JXAKHCFJvH112m8v1L2k3oyTagB7uo0qD21Bkt5jraMrazTr8G5wdB2c9oQcvoKVypSFAEOVM+8Q4bC/3KQk6BrRqEQrjloFTJyPIH7WqFkSvwKq7/42NAnrA5go+itZ/lF+TVpnsdbHtQ0G0Tgwwyc=
+  app: serene-ocean-42008
+  on:
+    repo: ahnelson34/blog-api
