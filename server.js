@@ -10,10 +10,6 @@ app.use(express.json());
 
 app.use('/blog-posts', blogPostsRouter);
 
-app.listen(process.env.PORT || 8080, () => {
-    console.log(`Your app is listening on port ${process.env.PORT || 8080}`);
-});
-
 let server;
 
 function runServer() {
