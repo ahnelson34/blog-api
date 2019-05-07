@@ -38,7 +38,7 @@ router.post('/', (req, res) => {
     res.status(201).json(item);
   });
 
-router.put('/:id', jsonParser, (req, res) => {
+router.put('/:id', (req, res) => {
     const requiredFields = ['title', 'content', 'author', 'publishDate', 'id'];
     for (let i=0; i<requiredFields.length; i++) {
       const field = requiredFields[i];
